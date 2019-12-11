@@ -1,0 +1,95 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: 150px;
+    padding: 10px;
+}
+
+.vote{
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.up{
+    grid-row: 1/2;
+    text-align: center;
+    align-items: center;
+    background-color:rgb(219, 217, 217) ;
+    padding : 2px;
+    height: 60px;
+    width: 60px;
+    
+}
+.up i{
+    font-size: 30px;
+    color: black;
+    
+}
+
+.down{
+    grid-row: 2/-1;
+    text-align: center;
+    align-items: center;
+    background-color:rgb(219, 217, 217) ;
+    padding: 2px;
+    height: 60px;
+    width: 60px;
+}
+
+.down i{
+    font-size: 30px;
+    color: black;
+}
+
+.content{
+    grid-column: 2 / -1;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+   
+}
+
+.votes{
+    grid-column: 1 / 2;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 600;
+    display: flex;
+  align-items: center;
+}
+.viewarea{
+    grid-column: 2 / -1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.title{
+    grid-row: 1/2;
+    display: flex;
+    font-size: 2em;
+}
+.options{
+    grid-row: 2/-1;
+    display: flex;
+     align-items: center;
+}
+.edit{
+    padding: 15px;
+}
+
+.save{
+    padding: 15px;
+}
+
+.delete{
+    padding: 15px;
+}
+.link{
+    color: black;
+}
+.link:hover{
+    color: #00F
+}
+.link:visited{
+    color:purple
+}

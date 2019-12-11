@@ -1,0 +1,13 @@
+*{
+    top:0;
+    left:0;
+    box-sizing: border-box;
+}
+.list_wrapper{
+    margin: 5px;
+    background: rgba(218, 217, 217, 0.712);
+}
+
+.list{
+  border-bottom: 5px solid #fff ; 
+}
